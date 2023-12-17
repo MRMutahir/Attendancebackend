@@ -4,7 +4,7 @@ import dotenv from "dotenv";
 import cors from "cors";
 import cookieParser from "cookie-parser";
 import { authentication } from "./Routes/Auth.js";
-import {addStudentrouter} from "./Routes/AddStudent.js"
+import { addStudentrouter } from "./Routes/AddStudent.js";
 // import { routeAddStudent } from "./Routes/AddStudent.js";
 const server = express();
 server.use(cookieParser());
